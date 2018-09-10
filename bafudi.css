@@ -1,0 +1,117 @@
+/*
+bafudi.css - The Building Coder Bafudi style sheet
+Copyright (C) 2014-2015 by Jeremy Tammik, Autodesk Inc. All rights reseved.
+*/
+
+html {
+  background: url(img/img_4347_bafudi_05.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #C0B0D0; /* seen while loading image */
+}
+
+/*
+@media handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html {
+      http://sixrevisions.com/css/responsive-background-image
+      http://stackoverflow.com/questions/13550541/media-min-width-max-width
+      ---
+    background: url(img/img_4347_bafudi_768_05.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #C0B0D0;
+  }
+}
+*/
+
+body {
+  padding:30px;
+}
+
+div.lighter {
+  background-color : rgba(255, 220, 220, 0.5);
+}
+
+div.inner {
+  padding:20px;
+}
+
+/*
+body {
+  background-color : #FF9090; /* DarkOliveGreen DarkSeaGreen IndianRed linen #FAF0E6
+  /*background: url('img/bafudi1.jpg') no-repeat center center fixed;
+}
+
+div.background {
+  background: url('img/bafudi1.jpg') no-repeat center center fixed;
+  width:100%;
+  height:100%;
+  border:none;
+}
+
+div.foreground {
+  width:100%;
+  height:100%;
+  margin:50px 50px;
+  background-color:#000000;
+  border:none;
+  opacity:0.7;
+}
+
+div.foreground h1, h3, h4, p, li {
+  font-family:"Arial Black", Gadget, sans-serif;
+  color: #202020; /* MediumTurquoise MintCream darkblue;
+}
+*/
+
+table.right {
+  margin-left:auto;
+  margin-right:0px;
+  margin-bottom: 12px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Lusitana', sans-serif;
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Lusitana', sans-serif;
+  font-size: 36px;
+}
+
+p, li {
+  font-family: 'Lusitana', sans-serif;
+  font-size: 18px;
+}
+
+p.subtitle {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+h2.subtitle {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+p.right_small {
+  text-align:right;
+  font-size:small;
+}
+
+iframe.map {
+  border:0;
+  width: 100%;
+  height: 400;
+}
